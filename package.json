@@ -1,0 +1,28 @@
+{
+  "name": "osu-tracker",
+  "version": "1.0.0d",
+  "description": "Osu Tracker for Discord",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js debug",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SylveonOW/Osu-Tracker-for-Discord.git"
+  },
+  "keywords": [
+    "Osu",
+    "Discord"
+  ],
+  "author": "SylveonOW",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4",
+    "colors": "^1.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/SylveonOW/Osu-Tracker-for-Discord/issues"
+  },
+  "homepage": "https://github.com/SylveonOW/Osu-Tracker-for-Discord#readme"
+}

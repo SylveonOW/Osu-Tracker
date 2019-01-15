@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const fs = require("fs");
-var $ = require("jquery");
+var $ = require("jQuery");
 
 const config = JSON.parse(fs.readFileSync("config.json", "utf8"));
 
@@ -75,6 +75,8 @@ function cmd_help(msg, args){
   function cmd_playerInfo(msg, args){
     if (args.length === 1) {
       var arg = args.join(" ");
+
+      //needs Fixing jquery part. No idea how to get jquery inside this script using require, even its in node_modules
       $.getJSON("https://osu.ppy.sh/api/get_user" , {"k" : config.apikey , "u" : arg}, function(data){
         console.log(data);
       })

@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const fs = require("fs");
+var $ = require("jquery");
 
 const config = JSON.parse(fs.readFileSync("config.json", "utf8"));
 
